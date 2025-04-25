@@ -12,3 +12,13 @@ int invertNumero(int n) {
 
     return invertido;
 }
+int main () {
+    int n;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &n);
+
+    int invertido = invertNumero(n);
+    printf("O numero invertido eh: %d\n", invertido);
+
+    return 0;
+}
